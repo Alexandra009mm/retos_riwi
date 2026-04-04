@@ -1,4 +1,4 @@
-from retos_riwi.inputs.inventoy.calculate_total import calculate_total as ctl
+from  calculate_total import calculate_total as ctl
 
 def show_resummary(items):
              
