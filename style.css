@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/fondo-papel-tapiz-artistico-borroso-colorido_58702-8553.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #333; 
+}
+
+header {
+    background-color: rgb(242, 242, 255);
+    width: 100%;
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1200px;
+}
+
+div.logo{
+    margin: 0;
+    padding: 10px;
+    margin: 20px;
+}
+
+li img {
+    margin: 5px;
+    width: 15px;
+    padding: 2px;
+}
+
+.menu a{
+    text-decoration: none;
+
+}
+
+li.link {
+    margin-left: 15px;
+    background-color: rgb(215, 167, 255);
+    border-radius: 40px;
+    width: 100px;
+    padding: 10px;
+    border: 20px black;
+    list-style: none;
+    border: 2px solid black;
+
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    position: relative;
+    display: inline-flex;
+    padding: 30px;
+}
+
+
+div.bloque{
+    background-image: url(img/pexels-pachon-in-motion-426015731-26559580.jpg);
+    background-size: cover;
+    background-position: center;
+    min-width: 400px;
+    
+
+    
+}
