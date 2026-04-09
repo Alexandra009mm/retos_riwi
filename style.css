@@ -1,28 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    justify-content:center
+
+}
+
 body {
+    color: rgb(250, 250, 250);
     margin: 0;
     padding: 0;
-    background-image: url(img/fondo-papel-tapiz-artistico-borroso-colorido_58702-8553.avif);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: #333; 
+    background-color: #ebd263; 
 }
 
 header {
+    color: rgb(5, 5, 5);
     background-color: rgb(242, 242, 255);
-    width: 100%;
     display: flex;
     margin: 0;
     flex-direction: row;
     justify-content: space-between;
     gap: 1200px;
+    align-items: center;
+    padding: 0px;
+
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    gap: 1000px;
+    padding: 0px;
 }
 
 div.logo{
     margin: 0;
     padding: 10px;
     margin: 20px;
+    padding: 6;
+
+}
+img {
+    padding: 0 40px;
+    width: 70px;
+    margin: 0px;
+}
+h1 {
+    padding: 0 33px;
+    font-size: 20px;
+}
+.barra{
+    padding: 0 40px;
 }
 
 li img {
@@ -31,14 +63,19 @@ li img {
     padding: 2px;
 }
 
-.menu a{
+nav .menu ul{
     text-decoration: none;
-
+}
+.menu img{
+    width: 12px;
+}
+a {
+    color: black;
 }
 
 li.link {
     margin-left: 15px;
-    background-color: rgb(215, 167, 255);
+    background-color: #ebd263;
     border-radius: 40px;
     width: 100px;
     padding: 10px;
@@ -65,4 +102,22 @@ div.bloque{
     
 
     
+}
+
+.imagen-central{
+    background-image: url(img/634dde89272560563ac10898_2022_Q3_AppDirectory_Admin_HeroBanner_1800x720.png);
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto-imagen{
+    text-align: center;
+    font-size: clamp(16px,3vw,32px);
+    color: rgb(12, 11, 11);
+    text-shadow: 0 0 10px white;
+    font-size: 20px; 
+       
 }
